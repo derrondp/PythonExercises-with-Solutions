@@ -15,4 +15,4 @@ import re
 mail_input = input("Enter email address: ")
 pattern = "(\w+)@((\w+\.)+(com))"
 r = re.match(pattern, mail_input)
-print(r.group(2))
+print(r.group(1))
